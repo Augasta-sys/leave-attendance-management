@@ -35,6 +35,15 @@
       "employeeId": "EMP004",
       "name": "Sneha Raj",
       "status": "active"
+    },
+    {
+      "id": "jggjq3Hs-50",
+      "email": "saugasta97@gmail.com",
+      "password": "Employee@123",
+      "role": "employee",
+      "employeeId": "EMP005",
+      "name": "Swarna Augasta",
+      "status": "active"
     }
   ],
   "employees": [
@@ -367,6 +376,5 @@
       "relatedRecord": "EMP005",
       "timestamp": "2026-09-10T16:10:00"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
