@@ -1,0 +1,372 @@
+{
+  "users": [
+    {
+      "id": "U001",
+      "email": "admin@company.com",
+      "password": "Admin@123",
+      "role": "admin",
+      "employeeId": "EMP001",
+      "name": "Arun Kumar",
+      "status": "active"
+    },
+    {
+      "id": "U002",
+      "email": "hr@company.com",
+      "password": "Hr@123",
+      "role": "hr",
+      "employeeId": "EMP002",
+      "name": "Priya Sharma",
+      "status": "active"
+    },
+    {
+      "id": "U003",
+      "email": "manager@company.com",
+      "password": "Manager@123",
+      "role": "manager",
+      "employeeId": "EMP003",
+      "name": "Rahul Menon",
+      "status": "active"
+    },
+    {
+      "id": "U004",
+      "email": "employee@company.com",
+      "password": "Employee@123",
+      "role": "employee",
+      "employeeId": "EMP004",
+      "name": "Sneha Raj",
+      "status": "active"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP001",
+      "employeeId": "EMP001",
+      "fullName": "Arun Kumar",
+      "email": "admin@company.com",
+      "phone": "9876543210",
+      "departmentId": "DEP001",
+      "designation": "System Administrator",
+      "managerId": null,
+      "joiningDate": "2023-01-10",
+      "employmentStatus": "Active",
+      "profileImage": "",
+      "createdDate": "2023-01-10"
+    },
+    {
+      "id": "EMP002",
+      "employeeId": "EMP002",
+      "fullName": "Priya Sharma",
+      "email": "hr@company.com",
+      "phone": "9876543211",
+      "departmentId": "DEP002",
+      "designation": "HR Executive",
+      "managerId": null,
+      "joiningDate": "2023-03-15",
+      "employmentStatus": "Active",
+      "profileImage": "",
+      "createdDate": "2023-03-15"
+    },
+    {
+      "id": "EMP003",
+      "employeeId": "EMP003",
+      "fullName": "Rahul Menon",
+      "email": "manager@company.com",
+      "phone": "9876543212",
+      "departmentId": "DEP001",
+      "designation": "Engineering Manager",
+      "managerId": null,
+      "joiningDate": "2022-08-20",
+      "employmentStatus": "Active",
+      "profileImage": "",
+      "createdDate": "2022-08-20"
+    },
+    {
+      "id": "EMP004",
+      "employeeId": "EMP004",
+      "fullName": "Sneha Raj",
+      "email": "employee@company.com",
+      "phone": "9876543213",
+      "departmentId": "DEP001",
+      "designation": "Frontend Developer",
+      "managerId": "EMP003",
+      "joiningDate": "2024-02-12",
+      "employmentStatus": "Active",
+      "profileImage": "",
+      "createdDate": "2024-02-12"
+    },
+    {
+      "id": "EMP005",
+      "employeeId": "EMP005",
+      "fullName": "Vikram Singh",
+      "email": "vikram@company.com",
+      "phone": "9876543214",
+      "departmentId": "DEP003",
+      "designation": "Financial Analyst",
+      "managerId": null,
+      "joiningDate": "2023-06-05",
+      "employmentStatus": "Active",
+      "profileImage": "",
+      "createdDate": "2023-06-05"
+    },
+    {
+      "id": "EMP006",
+      "employeeId": "EMP006",
+      "fullName": "Meera Joseph",
+      "email": "meera@company.com",
+      "phone": "9876543215",
+      "departmentId": "DEP004",
+      "designation": "Marketing Specialist",
+      "managerId": null,
+      "joiningDate": "2024-01-08",
+      "employmentStatus": "Active",
+      "profileImage": "",
+      "createdDate": "2024-01-08"
+    }
+  ],
+  "departments": [
+    {
+      "id": "DEP001",
+      "departmentId": "DEP001",
+      "departmentName": "Development",
+      "departmentHead": "Rahul Menon",
+      "description": "Software development and engineering team.",
+      "status": "Active"
+    },
+    {
+      "id": "DEP002",
+      "departmentId": "DEP002",
+      "departmentName": "Human Resources",
+      "departmentHead": "Priya Sharma",
+      "description": "Employee relations and HR operations.",
+      "status": "Active"
+    },
+    {
+      "id": "DEP003",
+      "departmentId": "DEP003",
+      "departmentName": "Finance",
+      "departmentHead": "Vikram Singh",
+      "description": "Financial planning and accounting.",
+      "status": "Active"
+    },
+    {
+      "id": "DEP004",
+      "departmentId": "DEP004",
+      "departmentName": "Marketing",
+      "departmentHead": "Meera Joseph",
+      "description": "Marketing campaigns and brand operations.",
+      "status": "Active"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "ATT001",
+      "employeeId": "EMP001",
+      "employeeName": "Arun Kumar",
+      "date": "2026-09-15",
+      "checkIn": "09:00",
+      "checkOut": "18:00",
+      "workingHours": "9h 00m",
+      "status": "Present",
+      "remarks": ""
+    },
+    {
+      "id": "ATT002",
+      "employeeId": "EMP002",
+      "employeeName": "Priya Sharma",
+      "date": "2026-09-15",
+      "checkIn": "09:15",
+      "checkOut": "18:00",
+      "workingHours": "8h 45m",
+      "status": "Late",
+      "remarks": "Reached after scheduled time."
+    },
+    {
+      "id": "ATT003",
+      "employeeId": "EMP003",
+      "employeeName": "Rahul Menon",
+      "date": "2026-09-15",
+      "checkIn": "08:55",
+      "checkOut": "18:10",
+      "workingHours": "9h 15m",
+      "status": "Present",
+      "remarks": ""
+    },
+    {
+      "id": "ATT004",
+      "employeeId": "EMP004",
+      "employeeName": "Sneha Raj",
+      "date": "2026-09-15",
+      "checkIn": "09:05",
+      "checkOut": "18:00",
+      "workingHours": "8h 55m",
+      "status": "Present",
+      "remarks": ""
+    },
+    {
+      "id": "ATT005",
+      "employeeId": "EMP005",
+      "employeeName": "Vikram Singh",
+      "date": "2026-09-15",
+      "checkIn": "",
+      "checkOut": "",
+      "workingHours": "0h 00m",
+      "status": "Absent",
+      "remarks": "No attendance recorded."
+    },
+    {
+      "id": "ATT006",
+      "employeeId": "EMP006",
+      "employeeName": "Meera Joseph",
+      "date": "2026-09-15",
+      "checkIn": "09:00",
+      "checkOut": "13:00",
+      "workingHours": "4h 00m",
+      "status": "Half Day",
+      "remarks": "Personal appointment."
+    },
+    {
+      "id": "eGgA-FPGEaI",
+      "employeeId": "EMP004",
+      "date": "2026-09-21",
+      "checkIn": "16:04",
+      "checkOut": "16:04",
+      "workingHours": "0h 0m",
+      "status": "Present",
+      "remarks": "Checked in by employee."
+    }
+  ],
+  "leaveTypes": [
+    {
+      "id": "LT001",
+      "leaveTypeId": "LT001",
+      "name": "Casual Leave",
+      "description": "Leave for personal and casual requirements.",
+      "maximumDays": 12,
+      "status": "Active"
+    },
+    {
+      "id": "LT002",
+      "leaveTypeId": "LT002",
+      "name": "Sick Leave",
+      "description": "Leave for illness or medical requirements.",
+      "maximumDays": 10,
+      "status": "Active"
+    },
+    {
+      "id": "LT003",
+      "leaveTypeId": "LT003",
+      "name": "Annual Leave",
+      "description": "Planned annual vacation leave.",
+      "maximumDays": 15,
+      "status": "Active"
+    },
+    {
+      "id": "LT004",
+      "leaveTypeId": "LT004",
+      "name": "Emergency Leave",
+      "description": "Leave for urgent personal emergencies.",
+      "maximumDays": 5,
+      "status": "Active"
+    },
+    {
+      "id": "LT005",
+      "leaveTypeId": "LT005",
+      "name": "Work From Home",
+      "description": "Approved work from home days.",
+      "maximumDays": 20,
+      "status": "Active"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "LR001",
+      "leaveId": "LR001",
+      "employeeId": "EMP004",
+      "employeeName": "Sneha Raj",
+      "leaveTypeId": "LT001",
+      "leaveType": "Casual Leave",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-19",
+      "numberOfDays": 2,
+      "reason": "Personal work",
+      "appliedDate": "2026-09-14",
+      "status": "Approved",
+      "reviewedBy": "",
+      "reviewDate": "",
+      "reviewComment": ""
+    },
+    {
+      "id": "LR002",
+      "leaveId": "LR002",
+      "employeeId": "EMP005",
+      "employeeName": "Vikram Singh",
+      "leaveTypeId": "LT003",
+      "leaveType": "Annual Leave",
+      "startDate": "2026-09-20",
+      "endDate": "2026-09-22",
+      "numberOfDays": 3,
+      "reason": "Family vacation",
+      "appliedDate": "2026-09-10",
+      "status": "Approved",
+      "reviewedBy": "Rahul Menon",
+      "reviewDate": "2026-09-11",
+      "reviewComment": "Approved."
+    },
+    {
+      "id": "LR003",
+      "leaveId": "LR003",
+      "employeeId": "EMP006",
+      "employeeName": "Meera Joseph",
+      "leaveTypeId": "LT002",
+      "leaveType": "Sick Leave",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-12",
+      "numberOfDays": 1,
+      "reason": "Not feeling well",
+      "appliedDate": "2026-09-11",
+      "status": "Rejected",
+      "reviewedBy": "Priya Sharma",
+      "reviewDate": "2026-09-11",
+      "reviewComment": "Please contact HR for further clarification."
+    }
+  ],
+  "activities": [
+    {
+      "id": "ACT001",
+      "userId": "U004",
+      "userName": "Sneha Raj",
+      "action": "Leave Applied",
+      "description": "Sneha Raj applied for Casual Leave.",
+      "relatedRecord": "LR001",
+      "timestamp": "2026-09-14T10:30:00"
+    },
+    {
+      "id": "ACT002",
+      "userId": "U003",
+      "userName": "Rahul Menon",
+      "action": "Leave Approved",
+      "description": "Rahul Menon approved Vikram Singh's Annual Leave.",
+      "relatedRecord": "LR002",
+      "timestamp": "2026-09-11T11:15:00"
+    },
+    {
+      "id": "ACT003",
+      "userId": "U002",
+      "userName": "Priya Sharma",
+      "action": "Attendance Updated",
+      "description": "HR updated attendance for Meera Joseph.",
+      "relatedRecord": "ATT006",
+      "timestamp": "2026-09-15T09:30:00"
+    },
+    {
+      "id": "ACT004",
+      "userId": "U001",
+      "userName": "Arun Kumar",
+      "action": "Employee Created",
+      "description": "Admin created employee Vikram Singh.",
+      "relatedRecord": "EMP005",
+      "timestamp": "2026-09-10T16:10:00"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Tailwind CSS v4 - class based dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f8f9fa;
+  color: #1a1a2e;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Light Theme */
+html:not(.dark) body {
+  background: #f8f9fa;
+  color: #1a1a2e;
+}
+
+/* Dark Theme */
+html.dark body {
+  background: #0d0d0d;
+  color: #ffffff;
+}
+
+/* Hide scrollbar but keep scrolling */
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Authentication pages */
+.auth-page {
+  height: 100dvh;
+  min-height: 100dvh;
+  overflow: hidden;
+}
